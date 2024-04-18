@@ -1,0 +1,52 @@
+Git: It is a version control system
+
+Github: Cloud Repository System that is used to do version control.
+
+App version 1: User is using
+
+App version 2: Development is done, testers are testing it
+
+App version 3: Developers are working on it. 
+
+He detroyed version 3.
+
+
+App restores to version 2.
+
+www.github.com
+
+
+Commands to know :
+
+This is for pushing for the first time. From local computer -> github
+ls : list directory
+cd : change directory
+git init : to initialize a folder or project as a git repository
+git remote add origin {yourLink} : Adds a remote github link to your local code
+git branch -M {name of the branch} : Adds the branch that the code needs to go to
+git add {. / fileNameAndFilePath} : Marks the file that needs to be uploaded to git
+git commit -m "YOUR MESSAGE" : The message that needs to show in github
+git push -u origin {name of the branch} : Uploads files to github
+
+
+Github -> Local Computer
+git clone {theLinkOfProject}
+
+
+Conflicts / Git conflicts/ Merge Issues: When the latest code has a missmatch with the existing code is 						called a conflict
+
+
+To Stage a file
+git add {fileName}
+git commit -m "YourMessage"
+
+To push the staged files
+git push
+
+
+To get latest code from remote
+git pull
+
+
+
+
