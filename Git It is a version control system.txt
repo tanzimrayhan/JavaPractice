@@ -48,5 +48,7 @@ To get latest code from remote
 git pull
 
 
+What is Pull Request?
+Once I have done my code. The entire team needs to get it. So I create a request for the team to review and accept my code
 
 
