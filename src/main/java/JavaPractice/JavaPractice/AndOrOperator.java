@@ -6,7 +6,7 @@ public class AndOrOperator {
 		// TODO Auto-generated method stub
 
 		char letter = 'a';
-
+         System.out.println("Tanima");
 		switch (letter) {
 			case 'a':
 				System.out.println("This is a vowel");
@@ -26,6 +26,7 @@ public class AndOrOperator {
 			default:
 				System.out.println("This is a consonant");
 				break;
+
 		}
 	}
 
